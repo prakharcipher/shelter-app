@@ -1,0 +1,76 @@
+.card-container {
+    background-color: white;
+    border-radius: 4px;
+    height: 108px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 12px;
+    
+
+    .content-container {
+        width: 94%;
+        margin-left: 3%;
+        height: 108px;
+        padding: 12px 0;
+        display: flex;
+        box-sizing: border-box;
+
+        .image-container {
+            flex: 3.5 10;
+
+             img {
+                 border-radius: 8px;
+             }
+        }
+
+        .data-container {
+            flex: 6.5 10;
+
+            .text-box {
+                padding: 2px 0 2px 8px;
+                box-sizing: border-box;
+
+                .row1 {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .name {
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+
+                    .rent {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+
+                .row2 {
+                    margin-top: 8px;
+                    .details {
+                        font-size: 14px;
+                    }
+                }
+
+                .row3 {
+                    font-size: 14px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .share-button {
+                        display: flex;
+                        font-weight: 600;
+                        width: 60px;
+                        font-size: 12px;
+                        color: #4FCE5D;
+                        justify-content: space-evenly;
+                        border: 1px solid #4FCE5D;
+                        padding: 2px 4px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
