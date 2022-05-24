@@ -13,6 +13,7 @@ function App() {
       <PropertyCard />
       <PropertyCard />
       <PropertyCard />
+      <input type="text" placeholder="Sample text" style={{width: '50%', marginLeft: '2%', marginTop: '4%', padding: '8px'}} />
       <div className="footer">
         <div className="action-buttons">
           <div><HouseDoor style={{color: 'white', height: '25px', width: '25px', opacity: '0.8'}} /></div>
